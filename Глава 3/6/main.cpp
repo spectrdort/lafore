@@ -15,9 +15,6 @@ int main()
 		}
 		std::cout << "Fact = " << fact << std::endl;
 		fact = 1;
-		std::cout << "Another one (1/0) ";
-		ch = _getche() - 48;
-		std::cout << std::endl;
-	} while (ch != 0);
+	} while (numb != 0);
 	return 0;
 }
